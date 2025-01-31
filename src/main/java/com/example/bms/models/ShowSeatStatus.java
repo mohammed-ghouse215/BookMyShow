@@ -1,5 +1,8 @@
 package com.example.bms.models;
 
-public class ShowSeatStatus {
+public enum ShowSeatStatus {
 
+    AVAILABLE,
+    BOOKED,
+    LOCKED,
 }

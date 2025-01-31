@@ -1,5 +1,15 @@
 package com.example.bms.models;
 
-public class Seat {
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Seat extends BaseModel{
+    private String seatNumber;
+    private int row;
+    private int col;
+    private SeatType seatType;
+
 
 }

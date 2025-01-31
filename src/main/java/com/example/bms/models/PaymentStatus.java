@@ -1,5 +1,8 @@
 package com.example.bms.models;
 
-public class PaymentStatus {
+public enum PaymentStatus {
+    SUCCESS,
+    FAILURE,
+    PENDING,
 
 }

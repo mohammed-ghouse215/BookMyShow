@@ -1,5 +1,9 @@
 package com.example.bms.models;
 
-public class Feature {
+
+public enum Feature {
+    TWO_D,
+    THREE_D,
+    DOLBY_AUDIO,
 
 }
